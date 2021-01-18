@@ -1,0 +1,67 @@
+.home-about {
+  padding: 3.5rem 0 3.5rem 0;
+}
+
+.home-about__intro {
+  max-width: 75%;
+  margin: 0 auto;
+}
+
+.home-about__intro h2 {
+  font-size: 2rem;
+  color: #BF0436;
+  margin: 0 0 1rem 0;
+}
+
+.home-about__intro p {
+  font-size: 1.25rem;
+  max-width: 60ch;
+  margin: 0 0 4rem 0;
+}
+
+.home-about__repeater {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  grid-gap: 2rem;
+}
+
+@media (min-width: 768px) {
+  .home-about__repeater {
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+  }
+}
+
+.home-about__repeater .col .home-about__profile {
+  text-align: center;
+}
+
+.home-about__repeater .col .home-about__profile:hover h3, .home-about__repeater .col .home-about__profile:hover p {
+  color: #BF0436;
+}
+
+.home-about__repeater .col .home-about__profile img {
+  max-width: 50%;
+  border-radius: 50%;
+  margin: 0 auto;
+  -webkit-filter: grayscale(50%);
+          filter: grayscale(50%);
+  border: 2px solid #BF0436;
+  -webkit-transition: .1s ease;
+  transition: .1s ease;
+}
+
+.home-about__repeater .col .home-about__profile img:hover {
+  -webkit-filter: grayscale(0%);
+          filter: grayscale(0%);
+  -webkit-transition: .1s ease;
+  transition: .1s ease;
+  cursor: pointer;
+}
+
+.home-about__repeater .col .home-about__profile img:hover h3, .home-about__repeater .col .home-about__profile img:hover p {
+  color: #BF0436;
+}
+/*# sourceMappingURL=home_about.css.map */

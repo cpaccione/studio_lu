@@ -1,0 +1,59 @@
+// Theme Colors
+$primary: #26141b;
+$secondary: #BF0436;
+
+// Additional Colors
+$white: #ffffff;
+
+.home-hero {
+    position: relative;
+    height: 40vh;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    padding: 2rem 0 2rem 0;
+
+    @media(min-width: 600px) {
+        height: 70vh;
+    }
+
+    .overlay {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        background-color: rgba(000,000,000, .7);
+    }
+
+
+    h1 {
+        position: relative;
+        font-size: 2rem;
+        color: $white;
+        z-index: 2;
+        margin: 0;
+
+        @media(min-width: 600px) {
+            font-size: 3rem;
+        }
+
+        @media(min-width: 768px) {
+            font-size: 4rem
+        }
+
+        span {
+            color: $secondary;
+
+            a {
+                color: $secondary;
+                text-decoration: none;
+                border-bottom: 2px solid $secondary;
+
+                &:hover {
+                    color: $white;
+                }
+            }
+        }
+    }
+
+}
