@@ -38,6 +38,10 @@
   text-align: center;
 }
 
+.home-about__repeater .col .home-about__profile h3 {
+  margin: 1rem 0 .5rem 0;
+}
+
 .home-about__repeater .col .home-about__profile:hover h3, .home-about__repeater .col .home-about__profile:hover p {
   color: #BF0436;
 }

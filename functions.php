@@ -146,6 +146,7 @@ function studiolu_scripts() {
 	// Font - Ubuntu
 	wp_enqueue_style( 'font-ubuntu', 'https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap', array(), '1.0.0', 'all' );
 	
+	// Main Stylehseet
 	wp_enqueue_style( 'main-style', get_template_directory_uri() . '/scss/lu.css', array(), '1.0.0', 'all' );
 
 	wp_enqueue_script( 'studiolu-navigation', get_template_directory_uri() . '/js/navigation.js', array(), _S_VERSION, true );

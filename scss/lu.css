@@ -12,10 +12,14 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
+  margin: 0 0 1rem 0;
 }
 
 p {
+  font-size: 1rem;
+  line-height: 1.5;
   font-weight: 300;
+  margin: 0 0 1rem 0;
 }
 
 .container {
@@ -77,7 +81,7 @@ p {
 }
 
 .site-header .main-navigation #primary-menu li {
-  margin-right: 1rem;
+  margin-left: 1rem;
 }
 
 .site-header .main-navigation #primary-menu li a {
