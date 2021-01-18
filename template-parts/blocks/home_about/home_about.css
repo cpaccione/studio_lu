@@ -43,7 +43,7 @@
 }
 
 .home-about__repeater .col .home-about__profile img {
-  max-width: 50%;
+  max-width: 60%;
   border-radius: 50%;
   margin: 0 auto;
   -webkit-filter: grayscale(50%);
