@@ -3,7 +3,6 @@
 }
 
 .home-about__intro {
-  max-width: 75%;
   margin: 0 auto;
 }
 
@@ -52,7 +51,7 @@
   margin: 0 auto;
   -webkit-filter: grayscale(50%);
           filter: grayscale(50%);
-  border: 2px solid #BF0436;
+  border: 3px solid #BF0436;
   -webkit-transition: .1s ease;
   transition: .1s ease;
 }

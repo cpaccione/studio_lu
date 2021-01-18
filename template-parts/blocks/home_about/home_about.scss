@@ -10,7 +10,6 @@ $white: #ffffff;
 }
 
 .home-about__intro {
-    max-width: 75%;
     margin: 0 auto;
 
     h2 {
@@ -54,7 +53,7 @@ $white: #ffffff;
                 border-radius: 50%;
                 margin: 0 auto;
                 filter: grayscale(50%);
-                border: 2px solid $secondary;
+                border: 3px solid $secondary;
                 transition: .1s ease;
 
                 &:hover {
