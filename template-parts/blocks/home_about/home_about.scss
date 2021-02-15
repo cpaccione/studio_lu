@@ -38,6 +38,10 @@ $white: #ffffff;
         .home-about__profile {
             text-align: center;
 
+            &:hover {
+                cursor: pointer;
+            }
+
             h3 {
                 margin: 1rem 0 .5rem 0;
             }
@@ -52,7 +56,7 @@ $white: #ffffff;
                 max-width: 60%;
                 border-radius: 50%;
                 margin: 0 auto;
-                filter: grayscale(50%);
+                // filter: grayscale(100%);
                 border: 3px solid $secondary;
                 transition: .1s ease;
 
