@@ -140,14 +140,17 @@ add_action( 'widgets_init', 'studiolu_widgets_init' );
  * Enqueue scripts and styles.
  */
 function studiolu_scripts() {
+
+	// Font - Ubuntu
+	// wp_enqueue_style( 'font-ubuntu', 'https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap', array(), '1.0.0', 'all' );
+
+	// Tailwind CSS
+	wp_enqueue_style( 'tailwind', get_template_directory_uri() . '/css/tailwind.css', [], '1.0.0', 'all' );
+
 	wp_enqueue_style( 'studiolu-style', get_stylesheet_uri(), array(), _S_VERSION );
 	wp_style_add_data( 'studiolu-style', 'rtl', 'replace' );
 
-	// Font - Ubuntu
-	wp_enqueue_style( 'font-ubuntu', 'https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap', array(), '1.0.0', 'all' );
-	
-	// Main Stylehseet
-	wp_enqueue_style( 'main-style', get_template_directory_uri() . '/scss/lu.css', array(), '1.0.0', 'all' );
+
 
 	wp_enqueue_script( 'studiolu-navigation', get_template_directory_uri() . '/js/navigation.js', array(), _S_VERSION, true );
 
