@@ -28,11 +28,11 @@ if( !empty($block['align']) ) {
 $bg = get_field('background_image');
 ?>
 
-<section id="<?php echo esc_attr($id); ?>" class="<?php echo esc_attr($className); ?>" style="background-image: url('<?php echo $bg; ?>');">
+<section id="<?php echo esc_attr($id); ?>" class="<?php echo esc_attr($className); ?> h-screen" style="background-image: url('<?php echo $bg; ?>');">
     <div class="overlay"></div>
-    <div class="container">
-        <h1>We are a Chicago based creative digital agency <span>click here to <a href="#">learn more</a></span></h1>
-        
+    <div class="max-w-6xl mx-auto relative px-7 z-20">
+        <h1 class="text-2xl md:text-7xl text-lu-blue">We are a Chicago based creative digital agency</h1>
+        <a href="#" class="border-lu-blue border text-white bg-lu-blue hover:bg-white hover:text-lu-blue hover:border-white inline-block mt-4 px-6 py-2 text-base rounded transition duration-300">Contact Us</a>
     </div>
 </section>
 

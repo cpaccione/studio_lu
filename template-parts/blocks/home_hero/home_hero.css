@@ -1,6 +1,5 @@
 .home-hero {
   position: relative;
-  height: 40vh;
   background-position: center center;
   background-size: cover;
   display: -webkit-box;
@@ -12,47 +11,23 @@
   padding: 2rem 0 2rem 0;
 }
 
-@media (min-width: 600px) {
-  .home-hero {
-    height: 70vh;
-  }
-}
-
 .home-hero .overlay {
   position: absolute;
   height: 100%;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(242, 115, 4, 0.7);
 }
 
 .home-hero h1 {
   position: relative;
-  font-size: 2rem;
   color: #ffffff;
-  z-index: 2;
   margin: 0;
 }
 
-@media (min-width: 600px) {
-  .home-hero h1 {
-    font-size: 3rem;
-  }
-}
-
-@media (min-width: 768px) {
-  .home-hero h1 {
-    font-size: 4rem;
-  }
-}
-
-.home-hero h1 span {
-  color: #BF0436;
-}
-
 .home-hero h1 span a {
-  color: #BF0436;
+  color: #011c26;
   text-decoration: none;
-  border-bottom: 2px solid #BF0436;
+  border-bottom: 2px solid #011c26;
 }
 
 .home-hero h1 span a:hover {

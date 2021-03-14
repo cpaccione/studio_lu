@@ -144,6 +144,9 @@ function studiolu_scripts() {
 	// Font - Ubuntu
 	// wp_enqueue_style( 'font-ubuntu', 'https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap', array(), '1.0.0', 'all' );
 
+	wp_enqueue_style( 'font-lato', 'https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap', array(), '1.0.0', 'all' );
+
+
 	// Tailwind CSS
 	wp_enqueue_style( 'tailwind', get_template_directory_uri() . '/css/tailwind.css', [], '1.0.0', 'all' );
 
